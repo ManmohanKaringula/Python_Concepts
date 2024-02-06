@@ -1,0 +1,5 @@
+Enter a string: manmohan
+Enter a string: reddy
+Enter a string: karingula
+Enter a string: CSE
+Enter a string: 

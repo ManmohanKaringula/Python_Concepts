@@ -1,0 +1,12 @@
+The standard streams are similar to river streams, but instead of data there will be data flowing 
+There are three types of standard streams:
+
+1. stdout:
+The stdout is used to send data to the output screen by default the stdout points to the monitor of the computer 
+but we can change that to file or other destination of our choice
+
+2. stdin:
+The stdin is used to send the data into the computer by default the stdin points to the keyboard
+
+3. stderr:
+The stderr is used to print the error message onto the screen by default the stderr points to the monitor 

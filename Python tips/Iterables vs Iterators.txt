@@ -1,0 +1,19 @@
+Iterables: Iterables are the Objects usually collection/container types which one can iterate over and can be converted into iterators using "iter()" or "<iterable_name>.__iter__()" 
+
+
+Sequential Iterables: Lists, Tuples, Strings
+Note: The sequential Iterables are subscriptable ie., list[1], whereas the non-sequential Iterables are never subscriptable an error will be raised if they are subscripted.
+
+Non-Sequential Iterables: Dictionaries, Sets
+
+>>> for i in <Iterables>:
+	print(i)
+
+>>> For loop behind the scence: for loop in python is not a loop in python but it acts like one. The for keyword in python calls ".__iter__()" method which is same as "iter()" this 
+inturn converts the "Iterables" to "Iterators", the Iterators consists of "__next__()" method which when called "<Iterator_identifier>.__next__()" which return the first element
+and this calling of ".__next__()" continues till the last element is reached and finally the StopIteration error is thrown and then the for keyword stops calling the ".__next__()" 
+method.
+
+
+
+

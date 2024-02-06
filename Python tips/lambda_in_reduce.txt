@@ -1,0 +1,16 @@
+
+However, it differs from the map in its working. These are the steps followed by the reduce() function to compute an output:
+
+Step 1) Perform the defined operation on the first 2 elements of the sequence.
+
+Step 2) Save this result
+
+
+Step 3) Perform the operation with the saved result and the next element in the sequence.
+
+Step 4) Repeat until no more elements are left.This is manmohan typing the document again to write into the file using f.write method just to experiment with
+
+
+
+This is manmohan typing the document again to write into the file using f.write method just to experiment with 
+This is manmohan typing the document again to write into the file using f.write method just to experiment with 

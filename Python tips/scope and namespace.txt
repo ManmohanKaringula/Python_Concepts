@@ -1,0 +1,14 @@
+1. The scope of a declaration is the part of the program for which the declaration is in effect.
+2. C/C++ use lexical scoping.
+3. The lifetime of a variable or object is the time period in which the variable/object has valid memory.
+4. Lifetime is also called "allocation method" or "storage duration."
+
+Important Note:
+A scope is a textual region of a Python program where a namespace is directly accessible. “Directly accessible” 
+here means that an unqualified reference to a name attempts to find the name in the namespace
+
+Namespace hierarchy that the scope follows (LEGB):
+1. Local Namespace (First Priority)
+2. Enclosed Namespace (Second Priority, The namespace of enclosing function (nested function) is called enclosed namespace)
+3. Global Namespace (Third Priority)
+4. Built-in Namespace (Fourth Priority)

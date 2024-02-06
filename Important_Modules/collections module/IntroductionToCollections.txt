@@ -1,0 +1,4 @@
+The collection module is one of the most important module available in python built in modules, the collections module is 
+majorly used to containarize the sequence types ie., list, tuple, set etc which provides additional functionality to the 
+built in sequence types...
+

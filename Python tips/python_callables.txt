@@ -1,0 +1,7 @@
+
+python callables:
+
+A object in python is said to be callable if it can refer, call, pass argument (parameters) and return another object
+EX: 1) Functions, def func()
+    2) Classes , class super()
+    3) Instances of Classes

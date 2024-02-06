@@ -1,0 +1,29 @@
+Decorator:
+
+A decorator is a callable that returns a callable, it is used to modify the functionality of callable 
+
+Ex :  def data_manipulation(modifying_function):
+            data=[1,2,3,4,5,6,7]
+            for i in data:
+                x=modifying_function(i)
+                print(x)
+    @data_manipulation   Note: The syntax is @wrapper where wrapper is a function
+    def square(x):
+        return x*x
+
+    square() # you have to call the function if you want it to act
+
+    @data_manipulation
+    def cube(x):
+        return x*x*x
+    ....... you can go on with functions as many as you want the data_manipulation will act as the wrappers
+
+    The above decorator is similar to the following syntax:
+    square=data_manipulation(square)
+    cube=data_manipulation(cube) this is known as closures in python 
+
+    hence the first class functions and the decorators are similar but the decorators make the job easy and simple.
+
+    
+
+            

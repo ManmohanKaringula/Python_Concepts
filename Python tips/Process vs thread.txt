@@ -1,0 +1,27 @@
+Process:
+A process is an program/operation which can be runs on a CPU core
+Thread:
+The process can further be divided into small tasks known as threads. A process can have multiple threads to achieve 
+concurrency
+
+Parallelism vs Concurrency:
+In Parallelism the various processes are executed on different cores of a CPU, but python doesn't support Parallelism
+as GIL (global interpreter lock) prevents the processes to execute on more than a single core inorder to prevent the 
+corruption of memory.
+
+                process 1
+            ---------------->  | core 1 }
+                process 2               } CPU
+            ---------------->  | core 2 }
+
+Concurrency: In concurrency a single process is divided into many tasks known as threads, the threads are executed on a 
+single core of a CPU one after other on overlapping time 
+
+                |         11mins (overlapping time)
+                |---------------------------------------------
+                |
+                |                        4min     .......
+                |             5min    ----------
+                |  2min   |----------|-Thread 3-|
+                |---------|-Thread 2-|
+                |Thread 1_|___________________________________

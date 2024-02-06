@@ -1,0 +1,7 @@
+To convert a python source file (.py) to compiled byte code file (.pyc) use py_compile module in python
+
+import py_compile
+
+py_compile.compile("name of the python source file.py")
+
+

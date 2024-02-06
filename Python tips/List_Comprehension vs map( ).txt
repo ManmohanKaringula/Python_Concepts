@@ -1,0 +1,5 @@
+If we are calling an already defined function then map() is a bit faster than the corresponding List Comprehension.
+
+But when evaluating any other expression,List Comprehension is faster and clearer than map(), because the map incurs an extra function call for each element.
+
+Some people prefer List Comprehension as they say it is a more pythonic and systematic way of coding.

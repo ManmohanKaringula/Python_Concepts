@@ -1,0 +1,13 @@
+The json is also know as javascript object notation, here notation means a set of rules that are used to make text and these rules 
+are derived from javascript object syntax, actually JSON is similar to the javascript object but the javascript objects can have 
+some of the key values like "undefined" and functions whereas the JSON cannot have "Undefined" and functions as the key 
+values
+
+json:
+
+{
+"name":"manmohan"
+"age":21
+}
+
+json is accepted by all of the major programming languages but javascript has upper hand on it even python has support for it
